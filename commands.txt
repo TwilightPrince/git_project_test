@@ -1,0 +1,14 @@
+git init
+git log
+git log -n 100
+git log --since=2016-07-13 --until=2017-07-13
+git log --grep="message"
+git config user.name
+git config
+
+
+
+git add .
+git add file.txt file2.txt
+git commit -m "my initial "
+git push origin master
